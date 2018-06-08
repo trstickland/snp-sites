@@ -16,6 +16,6 @@ RUN apt-get update -qq
 #
 # Install SNP-sites
 #
-RUN apt-get install snp-sites libsnp-sites1
+RUN apt-get -y install snp-sites
 
 # RUN echo -n '*** Installed ' && snp-sites -V
