@@ -14,7 +14,7 @@ export CFLAGS="-I$PREFIX/include"
 export LDFLAGS="-L$PREFIX/lib"
 export CPATH=${PREFIX}/include
 
-auso apt-get install pkg-config
+sudo apt-get install pkg-config
 sudo apt-get install build-essential autoconf automake libtool zlib1g-dev check git libsnp-sites1
 sudo mkdir -p $PREFIX/bin
 
