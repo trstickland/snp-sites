@@ -33,3 +33,4 @@ run-all-tests*
 src/snp-sites
 tests/.deps/*
 tests/.dirstamp
+.vagrant
